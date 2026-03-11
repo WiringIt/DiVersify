@@ -1,42 +1,36 @@
 # DiVersify
-diversify
-|
-|-- frontend
-|
-|-- backend
-|
-|-- ai-service
-|
-|-- database
-|
-|-- docs
 
-# Frontend
-frontend
-|
-|-- app
-|-- components
-|-- features
-|-- services
-|-- store
-|-- styles
+A social platform dedicated to artists, providing a space to share poetry, music, and photography.
 
-# Backend
-backend
-|
-|-- controllers
-|-- services
-|-- repositories
-|-- models
-|-- security
-|-- config
+## 🗂️ Project Structure
 
-# AI Service
-backend
-|
-|-- controllers
-|-- services
-|-- repositories
-|-- models
-|-- security
-|-- config
+This repository is organized into a monorepo structure, separating the client, server, AI features, and database components.
+
+```text
+diversify/
+├── frontend/
+│   ├── app/
+│   ├── components/
+│   ├── features/
+│   ├── services/
+│   ├── store/
+│   └── styles/
+│
+├── backend/
+│   ├── controllers/
+│   ├── services/
+│   ├── repositories/
+│   ├── models/
+│   ├── security/
+│   └── config/
+│
+├── ai-service/
+│   ├── controllers/
+│   ├── services/
+│   ├── repositories/
+│   ├── models/
+│   ├── security/
+│   └── config/
+│
+├── database/
+└── docs/
